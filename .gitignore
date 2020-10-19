@@ -1,4 +1,4 @@
 /node_modules/
 
 # only generated for size check
-my-todo.bundled.js
+#my-todo.bundled.js
