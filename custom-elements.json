@@ -1,0 +1,63 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "my-todo",
+      "path": "./my-todo.js",
+      "attributes": [
+        {
+          "name": "todos",
+          "type": "array"
+        },
+        {
+          "name": "newTodo",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "editedTodo",
+          "type": "object"
+        },
+        {
+          "name": "visibility",
+          "type": "string",
+          "default": "\"all\""
+        }
+      ],
+      "properties": [
+        {
+          "name": "filteredTodos"
+        },
+        {
+          "name": "remaining"
+        },
+        {
+          "name": "allDone",
+          "type": "boolean"
+        },
+        {
+          "name": "todos",
+          "attribute": "todos",
+          "type": "array"
+        },
+        {
+          "name": "newTodo",
+          "attribute": "newTodo",
+          "type": "string",
+          "default": "\"\""
+        },
+        {
+          "name": "editedTodo",
+          "attribute": "editedTodo",
+          "type": "object"
+        },
+        {
+          "name": "visibility",
+          "attribute": "visibility",
+          "type": "string",
+          "default": "\"all\""
+        }
+      ]
+    }
+  ]
+}
